@@ -1,0 +1,8 @@
+[Unit]
+Description = Create directory for lab and file f1
+[Service]
+RemainAfterExit = true
+ExecStop = /usr/local/bin/creator
+Type = oneshot
+[Install]
+WantedBy = multi-user.target

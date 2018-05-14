@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir /etc/systemd/system/forlab
+cd forlab
+touch f1 
+ll

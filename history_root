@@ -1,0 +1,26 @@
+  149  chage -E 2018-03-11 user12
+  150  passwd -e user12
+  151  passwd -k user12
+  152  passwd -l user12
+  153  chage -E 2020-03-11 user12
+  154  passwd -u user12
+  155  man passwd
+  156  passwd -S user12
+  157  chage -E 2020-03-11 user12
+  158  passwd -S user12
+  159  man passwd
+  160  passwd -u user12
+  161  passwd -S user12
+  162  man passswd
+  163  man passwd
+  164  passwd -d user12
+  165  passwd  user12
+  166  passwd -S user12
+  167  passwd -S kolyan
+  168  man chage
+  169* 
+  170  chage -l kolyan
+  171  passwd -e user12
+  172  passwd  user12
+  173  chage -E 2018-01-01 user12
+  174  history >> /home/kolyan/test/history_root
